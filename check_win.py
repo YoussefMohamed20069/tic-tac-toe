@@ -6,7 +6,6 @@ def check_win(arr):
         return arr[0]
     elif arr[0] == arr[4] == arr[8] and arr[0] in players:
         return arr[0]
-    else:
-        return None
-
+    
+    return None
 
